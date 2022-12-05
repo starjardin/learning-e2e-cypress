@@ -1,10 +1,9 @@
-@onradar
-@disabled
-@issue("jira", "PDT-5661")
-Feature: History Tab Smoke tests
-    I am able to see changes in history tab
+Feature: This is a test file
+    I am able to run the test
 
     Background:
         Given I am on Home page
+        
+    Scenario: Successfully run the test
         When I confirm I am in the home page
         Then I can see everything in the home page
